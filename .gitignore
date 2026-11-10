@@ -1,0 +1,18 @@
+# 声骸升级调试产生的截图/日志（运行时生成，非源码）
+logs/
+
+# WorkBuddy 工作区内部数据（非项目源码）
+.workbuddy/
+
+# 体积大的运行资源与二进制（本地保留供程序运行，不纳入版本控制）
+ok-ww/ok-wuthering-waves-master/assets/
+ok-ww/ok-wuthering-waves-master/i18n/
+ok-ww/ok-wuthering-waves-master/icons/
+
+# 文档目录下的历史代码副本，与 src/task/UpgradeEchoTask.py 重复
+docs/echo-upgrade/code/UpgradeEchoTask.py
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
